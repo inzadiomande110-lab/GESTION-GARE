@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.hautpage{
+    background-color: #003049;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+
+}
+.name{
+    display: flex;
+    font-size: 30px;
+    color: #f77f00;
+}
+
+ a{
+    font-size: 20px;
+   margin: 10px;
+   text-decoration: none;
+   background-color: #f77f00;
+   color: #003049;
+   padding: 10px;
+   border-radius: 50px;
+   
+}
+
+.H2{
+    text-align: center;
+    margin-top: 20px;
+    color: #003049;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+footer{
+    background-color: #003049;
+    color: #f77f00;
+    text-align: center;
+    padding: 20px;
+}
+
+.reservation{
+    
+    font-size: 20px; 
+    margin: 20px;
+    color: #003049;
+}
+
+#P1{
+    font-size: 30px; 
+}
+
+.dpt{
+    display: flex;
+   /* justify-content: center; */
+    font-size: 40px;
+    margin-top: 40px;
+    gap: 40px;
+    color: #003049;
+    margin-left: 20px;
+}
+
+.dest{
+    display: flex;
+   margin-top: 20px;
+    font-size: 40px;
+    gap: 40px;
+    color: #003049;
+    margin-left: 20px;
+}
+
+
+select{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f77f00;
+    color: #003049;
+}
+
+.place{
+    font-size: 40px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    /* background-color: #f77f00; */
+    color: #003049;
+    margin-left: 20px;
+
+}
+input[type="number"]{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f77f00;
+    color: #003049;
+    margin-left: 20px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f77f00;
+    color: #003049;
+    margin-left: 20px;
+}
+
+.reserve{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f77f00;
+    color: #003049;
+    margin-bottom: 20px;
+    visibility: hidden; 
+    margin: 10px;
+}
+
+.message{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f77f00;
+    color: #003049;
+    margin-bottom: 20px;
+    margin: 10px;
+    visibility: hidden; 
+   
+}
+
+
