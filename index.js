@@ -3,6 +3,16 @@
 
 // pour le bouton
 const btn = document.getElementById("reserver");
+const restaurerBtn = document.getElementById("restaurer");
+
+// retaure la page lorsqu'on clique sur restaurer 
+if (restaurerBtn) {
+  restaurerBtn.addEventListener("click", () => {
+    window.location.reload();
+  });
+}
+
+if (btn) {
 // pour le depart et la destination
 const depart = document.getElementById("depart");
 const destination = document.getElementById("destination");
@@ -61,7 +71,7 @@ btn.addEventListener("click", () => {
   }
   
   // décremente le nombre de places restantes et mettre à jour le tarif total en fonction du nombre de places réservées
-  placesRestantes -= nombrePlaces;
+  placesRestantes = placesRestantes - nombrePlaces;
   tarifTotal += tarifUnitaire * nombrePlaces;
 
   // afficher le tarif total et le nombre de places restantes
@@ -70,3 +80,4 @@ btn.addEventListener("click", () => {
   nombrePlacesInput.max = placesRestantes;
   reserve.style.visibility = "visible";
 });
+}
