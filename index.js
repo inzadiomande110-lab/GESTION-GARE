@@ -61,7 +61,7 @@ btn.addEventListener("click", () => {
   }
   
   // décremente le nombre de places restantes et mettre à jour le tarif total en fonction du nombre de places réservées
-  placesRestantes = 100 - nombrePlaces;
+  placesRestantes -= nombrePlaces;
   tarifTotal += tarifUnitaire * nombrePlaces;
 
   // afficher le tarif total et le nombre de places restantes
